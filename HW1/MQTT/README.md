@@ -34,16 +34,3 @@ Once the you have selected from the options, the publisher will begin
 publishing the file as quickly as possible. After it is done, it 
 will restart and ask for the data file again. To stop, enter "5".
 
-## File Structure
-
-📦HW2\
- ┣ 📂DataFiles\
- ┃ ┣ 📜100B\
- ┃ ┣ 📜10KB\
- ┃ ┣ 📜10MB\
- ┃ ┗ 📜1MB\
- ┣ 📂MQTT\
- ┃ ┣ 📜Publisher.py\
- ┃ ┣ 📜README.md\
- ┃ ┗ 📜Subscriber.py
-

@@ -47,4 +47,23 @@ Please make only 1 submission per group as assigned by the instructor, i.e., onl
 <li>On page 2 and onward, describe your observations from the experiments and from the completed table in “Results File.xlsx”. Discuss which protocols perform better in what scenarios, investigate and describe why, and provide convincing arguments to justify your observations. This description should be no more than three pages long (double column, 10 pt font, 1 inch margins on all four sides of each page) </li>
 </ol>
 
+## File Structure
+
+📦HW1\
+┣ 📂CoAP\
+┃ ┣ 📜coapClient.py\
+┃ ┣ 📜coapServer.py\
+┃ ┗ 📜README.md\
+┣ 📂DataFiles\
+┃ ┣ 📜100B\
+┃ ┣ 📜10KB\
+┃ ┣ 📜10MB\
+┃ ┗ 📜1MB\
+┣ 📂HTTP\
+┃ ┣ 📜httpClient.py\
+┃ ┗ 📜README.md\
+┣ 📂MQTT\
+┃ ┣ 📜Publisher.py\
+┃ ┣ 📜README.md\
+┃ ┗ 📜Subscriber.py
 
