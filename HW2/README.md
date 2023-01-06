@@ -40,8 +40,8 @@ change the threshold at which the LED turns on.
 The Raspberry Pi A will sample the values of both LDR and potentiometer every 100 milliseconds. Every time it samples
 the values, it compares the values of both LDR and potentiometer with the previous most recent values of the LDR and
 potentiometer, respectively. If the difference of either the LDR or the potentiometer is beyond a certain threshold (you
-determine the appropriate threshold values), it publishes the LDR and potentiometer values to broker running on laptop #
-1. The Raspberry Pi A will publish the values of the LDR to the topic "lightSensor" and of the potentiometer to the
+determine the appropriate threshold values), it publishes the LDR and potentiometer values to broker running on laptop
+#1. The Raspberry Pi A will publish the values of the LDR to the topic "lightSensor" and of the potentiometer to the
 topic "threshold". Before posting the values of the potentiometer to the topic, you may have to scale them. Take a
 hypothetical example. Suppose when you sample values from your ADC connected to LDR, you might observe that your ADC
 outputs a minimum value of 10 and maximum value of 100 based on no light to very bright light. Whereas, when you sample
