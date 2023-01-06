@@ -1,9 +1,9 @@
 # This MQTT subscriber will subscribe to the topic "MQTT-Data" recorded
 # the amount of time is takes to transfer the files.
 
+import numpy as np
 import paho.mqtt.client as mqtt
 import time
-import numpy as np
 
 messageRecievedTime = []
 start_time = time.time()

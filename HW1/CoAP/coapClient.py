@@ -1,14 +1,15 @@
-import logging
 import asyncio
-from time import *
+import logging
 from aiocoap import *
+from time import *
 
 logging.basicConfig(level=logging.INFO)
+
 
 async def fileTransfer(fileSize):
     protocol = await Context.create_client_context()
 
-    start_req = time_ns()  
+    start_req = time_ns()
     request = Message(code=GET, uri=f'coap://localhost/datafile/{fileSize}')
 
     try:
@@ -20,13 +21,14 @@ async def fileTransfer(fileSize):
         print(e)
         return -1
     else:
-        print('Message Rec!!', " ...... \n Length of message recv: " , len(response.payload))
-        return (end_req-start_req)/1000000
+        print('Message Rec!!', " ...... \n Length of message recv: ", len(response.payload))
+        return (end_req - start_req) / 1000000
+
 
 if __name__ == "__main__":
 
     while True:
-        
+
         print("Which size of file do you want to trasfer? \n 1. 100 bytes \n 2. 10KB \n 3. 1MB \n 4. 10MB \n 5. Exit")
 
         choice = int(input('Enter Number: '))

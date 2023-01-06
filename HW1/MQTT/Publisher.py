@@ -1,5 +1,5 @@
-import paho.mqtt.client as mqtt
 import os
+import paho.mqtt.client as mqtt
 import time
 
 # IP address of the MQTT broker
@@ -9,9 +9,9 @@ client = mqtt.Client("MQTT-Publisher")
 # Connect to the MQTT broker
 client.connect(mqttBroker)
 
-
 callbacks_received = []
 wait = False
+
 
 # On publish message function
 def on_publish(client, userdata, mid):
@@ -33,7 +33,6 @@ print("File path: " + filePath)
 # Set the number of inflight messages to 10000
 inflight = 100
 client.max_inflight_messages_set(inflight)
-
 
 # Locations of all the data files ordered from smallest to largest
 dataFiles = [

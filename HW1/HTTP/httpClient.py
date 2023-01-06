@@ -1,5 +1,5 @@
-import requests
 import numpy as np
+import requests
 import time
 
 serverAddress = "http://192.168.10.31:8000"
@@ -34,6 +34,7 @@ def make_request(file_size_index, file_count):
     print("Standard deviation: \t", np.std(kbps), " kbps")
     print("\n===============================================================\n")
 
+
 while True:
 
     print("Which size of file do you want to trasfer? \n 0. 100 bytes \n 1. 10KB \n 2. 1MB \n 3. 10MB \n 4. Exit")
@@ -59,5 +60,3 @@ while True:
         print("Enter valid choice")
         break
     make_request(choice, transferNumber)
-
-
