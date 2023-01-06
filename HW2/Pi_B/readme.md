@@ -20,3 +20,5 @@ Press 'Enter' to exit:
 ```
 
 Press **ENTER** to exit gracefully.
+
+![Schematic](Pi B wiring_bb.png)
