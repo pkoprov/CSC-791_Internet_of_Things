@@ -20,3 +20,5 @@ Press 'Enter' to exit:
 ```
 
 Press **ENTER** to exit gracefully.
+
+![Schematic](CSC-791_Internet_of_Things/HW2/Pi_B/Pi B wiring_bb.png)
