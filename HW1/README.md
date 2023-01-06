@@ -39,12 +39,12 @@ Please make only 1 submission per group as assigned by the instructor, i.e., onl
 3. A report containing the following
 
 <ol type="a">
-<li>On the first page </li>
-
-i.  Names of each team member and percentage contribution of each team member. Please be fair and truthful. The grade of this assignment will be divided among team members according to their percentage contributions. </li>
-
-ii. What exactly did each team member do. Make a table. Assuming you have 5 members in your team, make a table with 6 columns. The first column should state various subtasks that your team undertook for this assignment and the next four columns should state the percentage contribution of the four team members for each subtask.
-
-<li> On page 2 and onward, describe your observations from the experiments and from the completed table in “Results File.xlsx”. Discuss which protocols perform better in what scenarios, investigate and describe why, and provide convincing arguments to justify your observations. This description should be no more than three pages long (double column, 10 pt font, 1 inch margins on all four sides of each page)</li>
+<li> On the first page </li>
+<ol type="i">
+<li> Names of each team member and percentage contribution of each team member. Please be fair and truthful. The grade of this assignment will be divided among team members according to their percentage contributions.</li> 
+<li> What exactly did each team member do. Make a table. Assuming you have 5 members in your team, make a table with 6 columns. The first column should state various subtasks that your team undertook for this assignment and the next four columns should state the percentage contribution of the four team members for each subtask.</li>
 </ol>
+<li>On page 2 and onward, describe your observations from the experiments and from the completed table in “Results File.xlsx”. Discuss which protocols perform better in what scenarios, investigate and describe why, and provide convincing arguments to justify your observations. This description should be no more than three pages long (double column, 10 pt font, 1 inch margins on all four sides of each page) </li>
+</ol>
+
 
